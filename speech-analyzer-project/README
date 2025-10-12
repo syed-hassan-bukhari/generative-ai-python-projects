@@ -1,0 +1,35 @@
+# 🎙️ Speech Analyzer with Whisper + IBM Watsonx LLM
+
+This project demonstrates AI-powered audio and language processing using **OpenAI Whisper** for speech recognition and **IBM Watsonx LLM** for text summarization.
+
+---
+
+## 🚀 Features
+- 🎧 Convert speech to text using Whisper
+- 🧠 Summarize key points with IBM Watsonx LLM
+- 🌐 Web apps built with Gradio
+- 💡 Modular and beginner-friendly structure
+
+---
+
+## 🗂️ Project Files
+- `simple_llm.py` → Basic text generation with IBM Watsonx
+- `simple_speech2text.py` → Basic Whisper speech-to-text
+- `speech2text_app.py` → Gradio transcription app
+- `speech_analyzer.py` → Complete Whisper + LLM summarizer
+- `requirements.txt` → Dependencies
+- `setup_instructions.txt` → Environment setup
+- `README.md` → Project overview
+
+---
+
+## ⚙️ Setup
+
+```bash
+python3 -m venv my_env
+source my_env/bin/activate
+pip install -r requirements.txt
+
+▶️ Run
+
+python speech_analyzer.py
