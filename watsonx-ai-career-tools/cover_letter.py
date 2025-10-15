@@ -11,8 +11,8 @@ model_id = "meta-llama/llama-3-2-11b-vision-instruct"  # Directly specifying the
 
 # Set credentials to use the model
 credentials = Credentials(
-                   url = "https://us-south.ml.cloud.ibm.com",
-                  )
+url = "https://us-south.ml.cloud.ibm.com",
+)
 
 # Generation parameters
 params = TextChatParameters(
